@@ -1,0 +1,13 @@
+id,step,issue,type,severity,evidence,need
+F-01,1,"Hero says ""₹0 Processing Fee for Everyone"" while the EMI table on the same page lists processing fees ""0% to 3.5%""",trust,3,01;03,N1
+F-02,1,"Rate shown as ""9.99%"" (calculator default, ""Lowest interest rate unlocked!"") but the slider runs to 38%, and the CIBIL 710+ condition appears only in a section far below the calculator",clarity,2,01;04,N1
+F-03,4,"The ""Check your eligibility"" button on the calculator opens the application, whose first screen asks for an Aadhaar-linked mobile number; a separate public eligibility calculator exists (no identity asked) but it is a different page from the one the button leads to",effort,2,01;07;14,N2
+F-04,4,"One bundled checkbox (""Agree to T&C and use of my KYC details from Cersai/UIDAI"") sits at the bottom of the screen, far from the field it relates to",trust,2,07,
+F-05,1,"Different time claims on different screens: ""disbursed in 10 minutes"", ""Approval In 5 Minutes"", ""Apply in 5 Mins""; it is not stated which stage each refers to",clarity,1,01;02;05,N3
+F-06,4,"The page lists a 5-step process, but the application shows a 3-stage progress bar (Verify Details, Get Offer, Get Money)",clarity,1,05;07,N3
+F-07,2,"A promotional pop-up appears unprompted while the user reads the page (seen covering the EMI table, and again on a fresh load) and has to be dismissed",effort,1,02;11,N1
+F-08,1,"Overview text says loans start at ₹50,000 while the calculator on the same page starts at ₹1L",clarity,1,01;08,N1
+F-09,1,"The calculator output shows EMI, total interest and total payable but no APR or fees; APR sits on a separate page of four documents reached from the footer",clarity,2,01;15,N1
+F-10,1,"The ""Schedule Of Charges"" footer link opens the Accounts tab; personal-loan charges need a switch to Loans, a product pick and a further ""View fees & charges"" click",effort,1,12;13,N1
+F-11,1,"Eligibility wording differs between pages: the product page says a CIBIL score of 710 or above, the eligibility page says 710+ for salaried and 760+ for self-employed",clarity,2,04;18,N2
+F-12,1,"The eligibility calculator loads with income ₹75,000 and obligation ₹1,00,000 and already shows ""eligible for a total loan amount of ₹50,000""",trust,2,14,N2

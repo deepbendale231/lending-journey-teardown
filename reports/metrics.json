@@ -1,0 +1,97 @@
+{
+  "errors": [],
+  "experiment": {
+    "alpha": 0.05,
+    "baseline_p": 0.3,
+    "delta": 0.02,
+    "from_defaults": [],
+    "guardrail": {
+      "baseline_rate": 0.03,
+      "margin": 0.005,
+      "n_per_arm": 14393,
+      "ratio_to_primary": 1.72
+    },
+    "n_per_arm_exact": 8391,
+    "n_per_arm_lehr": 8400,
+    "power": 0.8,
+    "total_users": 16782
+  },
+  "friction": {
+    "by_severity": {
+      "1": 5,
+      "2": 6,
+      "3": 1
+    },
+    "by_type": {
+      "clarity": 6,
+      "effort": 3,
+      "trust": 3
+    },
+    "count": 12,
+    "ids": [
+      "F-01",
+      "F-02",
+      "F-03",
+      "F-04",
+      "F-05",
+      "F-06",
+      "F-07",
+      "F-08",
+      "F-09",
+      "F-10",
+      "F-11",
+      "F-12"
+    ]
+  },
+  "journey": {
+    "e2e_time_seconds": null,
+    "evidence_boundary": "public website, up to the mobile-number entry screen (nothing entered or ticked)",
+    "flow_source": "website",
+    "steps": 4,
+    "sum_of_step_times_seconds": null
+  },
+  "rbi": {
+    "could_not_observe": 18,
+    "no": 0,
+    "requirements": 22,
+    "unfilled": 0,
+    "unverified_against_source": 22,
+    "yes": 4
+  },
+  "rice": {
+    "fixes_ranked": 10,
+    "top3": [
+      "Single source of truth for eligibility criteria and loan limits (one config feeds product page, eligibility page, calculator, splash)",
+      "One fee statement everywhere: align the hero, EMI table and benefit copy, and state the fee range and when each applies",
+      "Show the application pop-up only after the cost and eligibility sections are read, or not on those sections"
+    ],
+    "top3_stability": {
+      "draws": 2000,
+      "first": {
+        "One fee statement everywhere: align the hero, EMI table and benefit copy, and state the fee range and when each applies": 0.431,
+        "Show the application pop-up only after the cost and eligibility sections are read, or not on those sections": 0.004,
+        "Single source of truth for eligibility criteria and loan limits (one config feeds product page, eligibility page, calculator, splash)": 0.563,
+        "State time claims by stage (approval, disbursal) and use one set on every screen": 0.002
+      },
+      "relative_noise": 0.3,
+      "top3": {
+        "Fix the eligibility calculator's default state: start empty, and validate when obligations exceed income": 0.0,
+        "One fee statement everywhere: align the hero, EMI table and benefit copy, and state the fee range and when each applies": 0.994,
+        "Open the Schedule Of Charges link on the Loans tab with Personal Loan selected": 0.0,
+        "Put the consent checkbox next to the mobile-number field, split T&C from KYC-data consent, and state the purpose": 0.037,
+        "Show APR, fees and total cost in the calculator output, not only EMI and total interest": 0.117,
+        "Show an indicative eligibility range and rate band before the mobile-number gate (the bet to test)": 0.0,
+        "Show the application pop-up only after the cost and eligibility sections are read, or not on those sections": 0.429,
+        "Show the same stages on the page and in the application (one step model)": 0.0,
+        "Single source of truth for eligibility criteria and loan limits (one config feeds product page, eligibility page, calculator, splash)": 0.998,
+        "State time claims by stage (approval, disbursal) and use one set on every screen": 0.424
+      }
+    },
+    "top_fix": "Single source of truth for eligibility criteria and loan limits (one config feeds product page, eligibility page, calculator, splash)"
+  },
+  "screenshots": {
+    "files": 23,
+    "indexed": 23
+  },
+  "status": "in_progress"
+}

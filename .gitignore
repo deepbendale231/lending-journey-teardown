@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.claude/
+# raw, unblurred captures never belong in the repo; only files listed in screenshots/INDEX.md
+screenshots/raw/
+.coverage
+htmlcov/
