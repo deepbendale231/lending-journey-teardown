@@ -14,5 +14,5 @@ jobs:
       - run: ruff check . && ruff format --check .
       - name: Tests with coverage gate (fail under 90%)
         run: pytest -q --cov --cov-report=term-missing
-      - name: Evidence consistency (structure mode: passes on a fresh template)
+      - name: "Evidence consistency: RICE scores, screenshot index, generated blocks"
         run: python -m tools.rice --check && python -m tools.check
