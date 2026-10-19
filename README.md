@@ -20,8 +20,6 @@
 ## Headline
 
 <!-- HEADLINE:START -->
-> **Status: in progress.** Open: 22 RBI row(s) awaiting the author's re-read of the RBI text. Run `make check`.
-
 - The journey had **4** steps and **12** friction points (each with screenshot evidence).
 - **10** fixes ranked by RICE; the top fix is **Single source of truth for eligibility criteria and loan limits (one config feeds product page, eligibility page, calculator, splash)**.
 - The experiment needs **8,391 per arm** (Lehr's rule: 8,400) to detect +2.0 pts from a 30% baseline (assumed, see [07_ab_test_plan.md](07_ab_test_plan.md)).

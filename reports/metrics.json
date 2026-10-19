@@ -55,7 +55,7 @@
     "no": 0,
     "requirements": 22,
     "unfilled": 0,
-    "unverified_against_source": 22,
+    "unverified_against_source": 0,
     "yes": 4
   },
   "rice": {
@@ -93,5 +93,5 @@
     "files": 23,
     "indexed": 23
   },
-  "status": "in_progress"
+  "status": "complete"
 }
